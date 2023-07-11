@@ -83,26 +83,22 @@ header p{
     max-width: 594px;
     margin: 0 auto;
 }
-
-.Featured_Flowers .flex_column{
-    max-width: 32%;
-}
 .Featured_Flowers .Featured_Flowers_1st{
     background: #A7216226;
-    max-width: 260px;
+    max-width: 285px;
     max-height: 420px;
     padding: 110px 78px 0px 76px;
     border-radius: 300px 300px 0px 0px;
 }
 .Featured_Flowers .Featured_Flowers_2nd{
-    max-width: 320px;
+    max-width: 345px;
     max-height: 360px;
-    padding: 117px 47px 30px;
+    padding: 117px 47px 40px;
     background: #0597A026 ;
     border-radius: 300px 300px 0px 0px;
 }
 .Featured_Flowers .Featured_Flowers_3rd{
-    max-width: 266px;
+    max-width: 291px;
     max-height: 463px;
     border-radius: 300px 300px 0px 0px;
     padding: 67px 75px 0px;
@@ -119,14 +115,15 @@ header p{
 /* Featured_Flowers section end here */
 /* extra section start here */
 .most_sell{
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 .most_sell h2{
     padding: 10px 0 60px;
 }
 .most_sell .main_column{
     padding: 10px 0;
-    background:  #477D1126;;
+    background:  #477D1126;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .most_sell .flex_column {
     max-width: 49%;
