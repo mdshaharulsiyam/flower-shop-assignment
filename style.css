@@ -178,10 +178,10 @@ header p{
 /* hot_deal start here */
 .hot_deal{
     padding: 0 10px;
+    background: #E554730D;
 }
 .hot_deal .main_column {
     box-sizing: border-box;
-    background: #E554730D;
     padding: 80px 100px;
 }
 .hot_deal .flex_column{
