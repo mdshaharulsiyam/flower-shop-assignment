@@ -1,0 +1,267 @@
+/* typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato';
+
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.main_column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    cursor: pointer;
+}
+/* header section start */
+
+header{
+ background: #E554731A;
+ box-sizing: border-box;
+ padding: 0 20px;
+}
+header .flex_column{
+    max-width: 49%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: left;
+}
+header h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+header p{
+    margin: 32px 0;
+}
+
+/* header section end */
+/* Featured_Flowers section start  */
+
+.Featured_Flowers{
+    box-sizing: border-box;
+    padding: 178px 10px;
+}
+.Featured_Flowers p{
+    padding: 24px 0px 48px;
+    max-width: 594px;
+    margin: 0 auto;
+}
+
+.Featured_Flowers .flex_column{
+    max-width: 32%;
+}
+.Featured_Flowers .Featured_Flowers_1st{
+    background: #A7216226;
+    max-width: 260px;
+    max-height: 420px;
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+}
+.Featured_Flowers .Featured_Flowers_2nd{
+    max-width: 320px;
+    max-height: 360px;
+    padding: 117px 47px 51px;
+    background: #0597A026 ;
+    border-radius: 300px 300px 0px 0px;
+}
+.Featured_Flowers .Featured_Flowers_3rd{
+    max-width: 266px;
+    max-height: 463px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 67px 75px 0px;
+    background: #477D1126;
+}
+.Featured_Flowers figcaption{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 24px;
+}
+/* Featured_Flowers section end here */
+/* extra section start here */
+.most_sell{
+    padding: 0px 20px;
+}
+.most_sell h2{
+    padding: 10px 0 60px;
+}
+.most_sell .main_column{
+    padding: 10px 0;
+    background:  #477D1126;;
+}
+.most_sell .flex_column {
+    max-width: 49%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 24px;
+}
+.most_sell h4{
+    font-size: 32px;
+    color: #E55473;
+    font-style: italic;
+}
+.most_sell h3{
+    font-size: 48px;
+    font-weight: 800;
+    padding: 30px 0;
+}
+.most_sell h3 span{
+    color: #E55473;
+}
+.most_sell button{
+    margin: 30px 0;
+}
+/* extra section end here */
+/* support_section start here */
+.support_section{
+ padding:90px 10px;
+}
+.support_section .main_column{
+    background: #2727270D;
+    padding:87px 20px;
+    box-sizing: border-box;
+    
+}
+.support_section .flex_column{
+    max-width: 32%;
+}
+.support_section .flex_column img{
+    display: block;
+    margin: 0 auto;
+}
+.support_section a{
+    color:#272727CC;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 24px 0;
+    display: block;
+}
+/* support_section end here */
+/* hot_deal start here */
+.hot_deal{
+    padding: 0 10px;
+}
+.hot_deal .main_column {
+    box-sizing: border-box;
+    background: #E554730D;
+    padding: 80px 100px;
+}
+.hot_deal .flex_column{
+    max-width: 49%;
+}
+.hot_deal h2 span{
+    color: #E55473;
+}
+.hot_deal p{
+    max-width: 594px;
+    padding: 24px 0 32px;
+}
+/* hot_deal end here */
+/* instagram section start here */
+.instagram{
+    padding: 128px 10px;
+}
+.instagram img{
+    display: block;
+    width: 24%;
+}
+.instagram p{
+    max-width: 594px;
+    padding: 24px 0 48px;
+    margin: 0 auto;
+}
+/* instagram section end here */
+/* Get The Latest Deals section start here */
+.Get_Latest_Deals{
+    padding: 100px 10px;
+}
+.Get_Latest_Deals .container{
+    background: url(images/Rectangle9.png);
+    box-sizing: border-box;
+    padding: 121px 0;
+    border-radius: 8px;
+}
+.Get_Latest_Deals p{
+    padding: 16px 0 48px;
+}
+.Get_Latest_Deals input{
+    width: 700px;
+    height: 64px;
+    box-sizing: border-box;
+    padding: 23px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+.Get_Latest_Deals .btn{
+    padding: 18.2px 31px;
+    margin-left: 16px;
+}
+/* Get The Latest Deals section end here */
+/* footer start here */
+footer{
+    background: #111010;
+    box-sizing: border-box;
+    padding: 128px 0;
+}
+footer h4{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+footer h4 span{
+    color: #E55473;
+}
+footer p{
+    color:#FFFFFFE5 ;
+    font-size: 18px;
+    max-width: 625px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 24px 0 32px;
+}
+footer .copyright{
+    font-size: 16px;
+    color: #FFFFFF66;
+}
